@@ -35,7 +35,7 @@ const Signup = () => {
         e.preventDefault()
 
         try {
-            const url = 'http://localhost:4545/api/users'
+            const url = 'https://capstone-recipedia-app.herokuapp.com/api/users'
             const { data: res } = await axios.post(url, data)
             setTimeout(() => navigate('/login'), 1000)
             console.log(res.message)

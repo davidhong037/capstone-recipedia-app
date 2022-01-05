@@ -20,7 +20,7 @@ const Login = () => {
         e.preventDefault()
 
         try {
-            const url = 'http://localhost:4545/api/auth'
+            const url = 'https://capstone-recipedia-app.herokuapp.com/api/auth'
             const { data: res } = await axios.post(url, data)
             localStorage.setItem('token', res.data)
             window.location.href = '/'
