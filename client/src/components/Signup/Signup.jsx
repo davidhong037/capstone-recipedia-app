@@ -2,7 +2,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import axios from 'axios'
 import { SignupWrap, SignupContainer, SignupFormContainer, Left, WelcomeText, WhiteButton, GreenButton, Right, FormContainer, CreateText, PasswordText, FirstNameInput, LastNameInput, EmailInput, PasswordInput, ErrorMessage } from './signupComponent'
-import { IconButton, Snackbar, Button } from '@mui/material'
+import { IconButton, Snackbar } from '@mui/material'
 import { Close } from '@mui/icons-material'
 
 const Signup = () => {
